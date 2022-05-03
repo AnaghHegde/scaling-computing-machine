@@ -23,10 +23,6 @@
     "GSheet_testJWT": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
-    },
-    "Smtp_send_email": {
-      "unpublishedUserSetOnLoad": false,
-      "publishedUserSetOnLoad": false
     }
   },
   "publishedTheme": {

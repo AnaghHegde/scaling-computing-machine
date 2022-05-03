@@ -30,8 +30,9 @@
               "widgetName": "Table1",
               "defaultPageSize": 0,
               "columnOrder": [
-                "V_1_5_4",
-                "Column_2",
+                "test_release",
+                "test_user",
+                "a",
                 "rowIndex"
               ],
               "isVisibleDownload": true,
@@ -52,51 +53,20 @@
                   "key": "tableData"
                 },
                 {
-                  "key": "primaryColumns.V_1_5_4.computedValue"
-                },
-                {
-                  "key": "primaryColumns.Column_2.computedValue"
-                },
-                {
                   "key": "primaryColumns.rowIndex.computedValue"
+                },
+                {
+                  "key": "primaryColumns.test_release.computedValue"
+                },
+                {
+                  "key": "primaryColumns.test_user.computedValue"
+                },
+                {
+                  "key": "primaryColumns.a.computedValue"
                 }
               ],
               "leftColumn": 0,
               "primaryColumns": {
-                "V_1_5_4": {
-                  "index": 0,
-                  "width": 150,
-                  "id": "V_1_5_4",
-                  "horizontalAlignment": "LEFT",
-                  "verticalAlignment": "CENTER",
-                  "columnType": "text",
-                  "textSize": "PARAGRAPH",
-                  "enableFilter": true,
-                  "enableSort": true,
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "isCellVisible": true,
-                  "isDerived": false,
-                  "label": "V_1_5_4",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.V_1_5_4))}}"
-                },
-                "Column_2": {
-                  "index": 1,
-                  "width": 150,
-                  "id": "Column_2",
-                  "horizontalAlignment": "LEFT",
-                  "verticalAlignment": "CENTER",
-                  "columnType": "text",
-                  "textSize": "PARAGRAPH",
-                  "enableFilter": true,
-                  "enableSort": true,
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "isCellVisible": true,
-                  "isDerived": false,
-                  "label": "Column_2",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Column_2))}}"
-                },
                 "rowIndex": {
                   "index": 2,
                   "width": 150,
@@ -113,6 +83,57 @@
                   "isDerived": false,
                   "label": "rowIndex",
                   "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.rowIndex))}}"
+                },
+                "test_release": {
+                  "index": 0,
+                  "width": 150,
+                  "id": "test_release",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "test_release",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.test_release))}}"
+                },
+                "test_user": {
+                  "index": 1,
+                  "width": 150,
+                  "id": "test_user",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "test_user",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.test_user))}}"
+                },
+                "a": {
+                  "index": 2,
+                  "width": 150,
+                  "id": "a",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "text",
+                  "textSize": "PARAGRAPH",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "label": "a",
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.a))}}"
                 }
               },
               "delimiter": ",",
